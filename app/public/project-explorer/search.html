@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Basic layout</title>
+</head>
+
+<body>
+    <header>
+        <h1>Project Explorer</h1>
+        <h2>One stop Database for Academic Progress</h2>
+    </header>
+    <nav>
+            <a href="index.html">Home</a>
+            <a href="search.html">Project</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Search Project By</h2>
+            <form name="searchForm">
+            <input type="email" value="Project Name, Authors" name="searchTerm" />
+            <br><br>
+            <label for="searchType"><b>Search By:</b></label>
+            <br>
+            <select name="searchType">                     
+                <option value="name"> Name </option>
+                <option value="abstract"> Abstract </option>
+                <option value="author"> Author </option>
+                <option value="tag"> Tag </option>
+            </select>
+        </form>
+        <br>
+        <div><input type="submit" value=search /></div> 
+        </section>
+        
+        <section>
+        <header>
+            <h1>Search Result</h1>
+        </header>
+        <h2>Project 1</h2>
+            <ul>
+                <li>Name: Project 1</li>
+                <li>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    labore et dolore magna aliqua. Semper feugiat nibh sed pulvinar.</li>
+                <li>Program: Computer Science</li>
+                <li>Authors:Jone Bob,Jide Taiwo</li>
+                <li>Tags:#Asphypxia #GSW</li>
+                <li>Year: 2018</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
