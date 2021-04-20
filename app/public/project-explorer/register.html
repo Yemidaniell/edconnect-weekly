@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Basic layout</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-between">
+    <a class="navbar-brand" href="#">Project Explorer</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <form class="form-inline">
+        <div class="form-group">
+        <label for="searchForm" class="sr-only">Search Projects</label>
+        <input type="text" class="form-control" placeholder="Search Project">
+        <button type="button" class="btn btn-outline-light mx-2">Search</button>
+        </div>
+    </form>
+
+    <div class="colapse navbar-collapse" id="navbarnav">
+        <ul class="navbar-nav">
+            <li class="navbar-item"> 
+              <a href="#" class="nav-link">Submit</a>
+            </li> 
+        </ul>
+    </div>
+    <div class="colapse navbar-collapse" id="navbarnav">
+        <ul class="navbar-nav ml-auto">
+            <li class="navbar-item my-2"> 
+              <a href="#" class="nav-link">Signup</a>
+            </li>
+            <li class="navbar item px-0"> 
+              <a href="#" class="nav-link">Login</a>
+            </li>
+        </ul>
+        </div>
+    </div>
+</nav>
+
+    <form>
+      <div class="mx-auto pt-5" style="width: 750px;">
+        <h3>Signup</h3>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+             <label for="firstname">First name</label>
+             <input type="text" Name="firstname" Class="form-control" id="firstname" value="First name"> 
+            </div>
+            <div class="form-group col-md-6">
+              <label for="lastName">Last Name</label>
+              <input type="text" Name="lastname" class="form-control" id="lastName" value="Last name">
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="emailaddress">Email Address</label>
+              <input type="email" Name="emailaddress" Class="form-control" id="emailaddress" value="Your Email Address"> 
+            </div>
+            <div class="form-group col-md-6">
+              <label for="password">Password</label>
+              <input type="password" Name="password" Class="form-control" id="password" value="password"> 
+            </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="program">Program</label>
+                <select id="program" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+            </div>
+            <div class="form-group col-md-3">
+                <label for="matriculationnumber">Matriculation Number</label>
+                <input type="text" Name="matriculationnumber" Class="form-control" id="matriculationnumber" value="e.g. 16/2020"> 
+            </div>
+            <div class="form-group col-md-3">
+                <label for="graduationyear">Graduation Year</label>
+                <select id="graduationyear" class="form-control">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign up</button>
+      </div> 
+    </form>
+    
+    <div class="container-md">
+      <footer class="bg-light mt-5 pt-4 pb-4">
+          <div class="row">
+            <div class="col md-3">
+      
+            </div>
+            <div class="col md-3">
+      
+            </div>
+            <div class="col md-3">
+            </div>
+            <div class="text-enter text-md-right">
+              <div class="col md-3 pr-5">
+                <h5>
+                    <middle class="text-muted">Project explorer @ 2020.</middle>
+                    Edconnect
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </footer>
+</body>
+</html>
