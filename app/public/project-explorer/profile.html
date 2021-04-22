@@ -71,21 +71,21 @@
         <div class="form-row">
             <div class="form-group col-md-6">
              <label for="firstname">First name</label>
-             <input type="text" Name="firstname" Class="form-control" id="firstname" value="First name"> 
+             <input type="text" Name="firstName" Class="form-control" id="firstname" value="First name"> 
             </div>
             <div class="form-group col-md-6">
               <label for="lastName">Last Name</label>
-              <input type="text" Name="lastname" class="form-control" id="lastName" value="Last name">
+              <input type="text" Name="lastName" class="form-control" id="lastName" value="Last name">
             </div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
-              <label for="emailaddress">Email Address</label>
-              <input type="email" Name="emailaddress" Class="form-control" id="emailaddress" value="Your Email Address"> 
+              <label for="email">Email Address</label>
+              <input type="email" Name="email" Class="form-control" id="email" value="Your Email Address"> 
             </div>
             <div class="form-group col-md-6">
               <label for="program">Program</label>
-              <select id="program" class="form-control">
+              <select id="program" name="program" class="form-control">
                 <option selected>Choose...</option>
                 <option>...</option>
               </select>
@@ -93,12 +93,12 @@
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
-                <label for="matriculationnumber">Matriculation Number</label>
-                <input type="text" Name="matriculationnumber" Class="form-control" id="matriculationnumber" value="e.g. 16/2020"> 
+                <label for="matricnumber">Matriculation Number</label>
+                <input type="text" Name="matricNumber" Class="form-control" id="matricnumber" value="e.g. 16/2020"> 
             </div>
             <div class="form-group col-md-6">
                 <label for="graduationyear">Graduation Year</label>
-                <select id="graduationyear" class="form-control">
+                <select id="graduationyear" name="graduationYear" class="form-control">
                   <option selected>Choose...</option>
                   <option>...</option>
                 </select>
@@ -117,15 +117,15 @@
       <div class="form-row">
           <div class="form-group col-md-4">
            <label for="currentpassword">Current Password</label>
-           <input type="text" Name="currentpassword" Class="form-control" id="currentpassword" value="Current Password"> 
+           <input type="text" Name="currentPassword" Class="form-control" id="currentpassword" value="Current Password"> 
           </div>
           <div class="form-group col-md-4">
             <label for="newpassword">New Password</label>
-            <input type="text" Name="newpassword" class="form-control" id="newpassword" value="Your new password">
+            <input type="text" Name="newPassword" class="form-control" id="newpassword" value="Your new password">
           </div>
           <div class="form-group col-md-4">
             <label for="confirmpassword">Confirm Password</label>
-            <input type="text" Name="confirmpassword" class="form-control" id="confirmpassword" value="Confirm new password">
+            <input type="text" Name="confirmPassword" class="form-control" id="confirmpassword" value="Confirm new password">
           </div>
       </div>
       <button type="submit" class="btn btn-primary">Change Password</button>
