@@ -38,7 +38,7 @@
         </div>
     </div>
 </nav>
-    <div class="container md">
+    <div class="container">
         <br>
         <br>
         <h3>
@@ -68,56 +68,53 @@
         <br>
         <br>
         
-      <div class="form-row">
-        
-        <div class="form-group col">
+      <div class="row">
+        <div class="col">
             <b>Edit project</b>
-        <hr>
+          <hr>
+          <div class="form-group">
              <label for="name">Project Name</label>
              <input type="text" name="name" class="form-control" id="name" value="Project 1"> 
-        </div>
+          </div>
+          <div class="form-group">
+            <label for="abstract">Project Abstract</label>
+            <textarea class="form-control" name="abstract" id="abstract" placeholder="Project 1 is a very interesting project"rows="7"></textarea>
+          </div>
+          <div class="form-group">
+            <label for="authors">Author(s)</label>
+            <input type="text" name="authors" class="form-control" id="authors" value="Ade Chris"> 
+          </div>
+          <div class="form-group">
+           <label for="tags">Tag(s)</label>
+           <input type="text" name="tags" class="form-control" id="tags" value="#web">   
+           <br>
+           <button type="submit" class="btn btn-primary">Save</button> 
+          </div>
+      </div>
 
-        <div class="form-group col pl-5">
+        <div class="col">
+       
               <b>Manage Project Files</b>
-          <hr>
-        <div class="custom-file">
+            <hr>
+          <div class="custom-file">
             <input type="file" class="custom-file-input" id="customFile">
             <label class="custom-file-label" for="customFile">Click to open file browser</label>
-        </div>
-        </div>
-      </div>
-      <div class="form-row">
-          <div class="form-group col">
-                  <label for="abstract">Project Abstract</label>
-                  <textarea class="form-control" name="abstract" id="abstract" placeholder="Project 1 is a very interesting project"rows="6"></textarea>
           </div>
 
-          <div class="form-group col pl-5 mt-n5">
             <hr>
-          <div class="card mt">
-            <div class="card-header">
+          <div class="card">
+          <div class="card-header">
               <b>Project Files</b>
-            </div>
-            <div class="card-body">
+          </div>
+          <div class="card-body">
               <p class="card-text">No file uploaded yet.</p>
-            </div>
-        </div>
-        </div>
-      </div>  
-        <div class="form-group col-6 px-1 pr-4">
-                 <label for="authors">Author(s)</label>
-                 <input type="text" name="authors" class="form-control" id="authors" value="Ade Chris"> 
-        </div>
-        <div class="form-group col-6 px-1 pr-4 ">
-                <label for="tags">Tag(s)</label>
-                <input type="text" name="tags" class="form-control" id="tags" value="#web">   
-                <br>
-            <button type="submit" class="btn btn-primary">Save</button> 
-        </div>
+          </div>
+          </div>
+        </div>  
+        
       </div>
       </form>
-    </div>
-   
+  </div> 
 
     <div class="container-md">
       <footer class="bg-light mt-5 pt-4 pb-4">
